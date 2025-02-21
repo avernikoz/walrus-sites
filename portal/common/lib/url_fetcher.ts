@@ -157,7 +157,7 @@ export class UrlFetcher {
      * @param objectId - The object ID of the site object.
      * @param path - The path of the site resource to fetch. e.g. /index.html
      */
-    private async fetchUrl(
+    public async fetchUrl(
         objectId: string,
         path: string,
     ): Promise<Response> {
